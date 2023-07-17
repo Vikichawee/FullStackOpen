@@ -15,6 +15,9 @@ const Feedback = (props) => {
         goodCounter={props.goodState}
         badCounter={props.badState}
         neutralCounter={props.neutralState}
+        allCounter={props.allState}
+        avgCounter={props.avgState}
+        positiveCounter={props.positiveState}
       />
     </>
   );
